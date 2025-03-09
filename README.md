@@ -1,6 +1,6 @@
-# brain_dump
+# brain_dump()
 
-**brain_dump** is a lightweight PHP-based static site generator. It turns Markdown content with frontmatter into a structured, fast-loading static website. Ideal for blogs, pages, or any content-driven site.
+**brain_dump()** is a lightweight PHP-based static site generator. It turns Markdown content with frontmatter into a structured, fast-loading static website. Ideal for blogs, pages, or any content-driven site.
 
 ---
 
