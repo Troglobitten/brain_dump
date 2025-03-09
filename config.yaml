@@ -1,0 +1,13 @@
+site:
+  url: "https://braingobrrr.com"
+  title: "Haha brain go brrr"
+  description: "My janky static site"
+blog:
+  max_posts_per_page: 5
+images:
+  max_width: 1200
+  max_height: 800
+  thumbnail_width: 300
+  thumbnail_height: 200
+  quality: 85
+  format: "webp"

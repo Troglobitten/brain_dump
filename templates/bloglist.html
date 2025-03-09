@@ -1,0 +1,23 @@
+{% include 'partials/header' %}
+{% include 'partials/breadcrumbs' %}
+{% include 'partials/menu' %}
+
+<main>
+    <h1>{{ page.title }}</h1>
+
+    {% for blog in blogs %}
+        <article>
+            <h2><a href="{{ blog.url }}">{{ blog.title }}</a></h2>
+            <p>{{ blog.date }} | Tags: {{ blog.tags }}</p>
+        </article>
+    {% endfor %}
+
+    <nav class="pagination">
+  {% for page in pagination %}
+    <a href="{{ page.url }}" {% if page.active %}class="active"{% endif %}>Page {{ page.number }}</a>
+  {% endfor %}
+</nav>
+
+</main>
+
+{% include 'partials/footer' %}

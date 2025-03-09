@@ -1,0 +1,7 @@
+{% if breadcrumbs %}
+<nav class="breadcrumbs">
+  {% for crumb in breadcrumbs %}
+    <a href="{{ crumb.url }}" {% if crumb.active %}class="active"{% endif %}>{{ crumb.name }}</a> /
+  {% endfor %}
+</nav>
+{% endif %}

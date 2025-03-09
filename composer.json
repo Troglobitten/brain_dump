@@ -1,0 +1,8 @@
+{
+    "name": "troglobit/brain_dump",
+    "require": {
+        "league/commonmark": "^2.6",
+        "symfony/yaml": "^7.2",
+        "spatie/commonmark-highlighter": "^3.0"
+    }
+}

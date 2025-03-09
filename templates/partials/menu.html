@@ -1,0 +1,5 @@
+<nav class="menu">
+  {% for item in menu %}
+    <a href="{{ item.url }}" {% if item.active %}class="active"{% endif %}>{{ item.name }}</a>
+  {% endfor %}
+</nav>

@@ -1,0 +1,17 @@
+# Ignore generated static site output
+static/*
+updates/*
+content/*
+
+# Allow empty folders to stay
+!static/.keep
+!updates/.keep
+!content/.keep
+
+# Ignore Composer dependencies
+vendor/
+composer.lock
+
+# Ignore system files
+.DS_Store
+Thumbs.db
